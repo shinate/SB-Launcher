@@ -1,0 +1,25 @@
+var 魔力保护 = 200;
+if(自己.魔 < 魔力保护) {
+  return false;
+}
+
+// 范围内有，就随便找一个
+var 范围 = 40;
+var 攻击目标 = 0;
+if(获得表数量(怪) > 0){
+  for(i=1;获得表数量(怪);1) {
+    if(怪[i].距离 < 范围) {
+      攻击目标 = 怪[i].id;
+    } else {
+      break;
+    }
+  }
+}
+
+if(攻击目标 == 0) {
+  return false;
+}
+
+var bsuccess = 使用技能(技能id,技能等级,自己.id);
+
+return bsuccess,false;

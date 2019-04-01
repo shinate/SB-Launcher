@@ -1,0 +1,16 @@
+print(队友)
+print(盟友)
+print(敌人)
+print(怪)
+print(自己)
+
+var 锁定名 = 技能名;
+var 持续时间 = 10800000;
+
+var lock = 锁定技能(自己.id,锁定名,持续时间);
+
+print(lock)
+
+var bsuccess = 使用技能(技能id,技能等级,自己.id);
+
+return bsuccess,false;
