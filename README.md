@@ -6,7 +6,13 @@ skills 中需要对应角色名启动角色专属脚本（列表）
 
 ## 使用
 
-为了方便复用和单点维护，windows系统建议使用符号连接```mklink```实现快速引入
+### 拷贝更名
+
+将脚本目录复制到 ```C:\SB所在目录\res\skills```，将目录名改为角色名即可。
+
+### 符号连接快速引入
+
+为了方便复用和单点维护，windows系统建议使用符号连接```mklink```实现快速引入，windows10可直接使用，其他版本
 
 检出或下载本项目至目录
 
@@ -25,3 +31,13 @@ mklink /d C:\magicbane\res\skills\xxx C:\workspace\SB-Launcher\skills\DLY_FM
 如果有 xxx_2 可重复上面步骤，也使用同样的脚本
 
 需要注意的是，启动脚本前要调整脚本顺序，具体的排序方式请按照右侧推荐的排序规则
+
+### 如果不想敲命令或不是win10
+
+下载安装带界面的 [Symlinker](http://amd989.github.io/Symlinker/)
+
+- Windows Vista
+- Windows 7
+- Windows 8 and 8.1
+
+windows 10 一样可用
