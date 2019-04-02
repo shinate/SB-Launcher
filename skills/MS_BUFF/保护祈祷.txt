@@ -1,0 +1,14 @@
+var 持续时间 = 10800000;
+var 锁定名 = 技能名
+var lock = 锁定技能(自己.id,锁定名,持续时间);
+
+if(lock > 0) {
+  return false
+}
+
+var bsuccess =  使用技能(技能id,技能等级,自己.id);
+if(bsuccess) {
+  锁定技能(自己.id,锁定名,持续时间);
+}
+
+return bsuccess,false;
