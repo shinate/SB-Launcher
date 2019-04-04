@@ -4,6 +4,4 @@ if(自己.状态 != 5) {
   return false;
 }
 
-var bsuccess = 使用技能(技能id,技能等级,自己.id);
-
-return bsuccess,false;
+return 使用技能(技能id,技能等级,自己.id);

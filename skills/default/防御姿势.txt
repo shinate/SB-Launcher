@@ -8,4 +8,13 @@ if(0 < 锁定技能(自己.id,技能名,持续时间)) {
 var bsuccess = 使用技能(技能id,技能等级);
 关闭攻击模式();
 
-return bsuccess,false;
+if(bsuccess) {
+  锁定技能(自己.id,"正常姿势",0)
+  锁定技能(自己.id,"进攻姿势",0)
+  锁定技能(自己.id,"精确姿势",0)
+} else {
+  锁定技能(自己.id,技能名,0)
+  return true
+}
+
+return false
