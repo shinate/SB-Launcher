@@ -1,0 +1,22 @@
+//有队友再用，到CD就用
+
+// 坐下时不使用技能
+if(自己.状态 != 5) {
+  return false;
+}
+
+var 锁定时间 = 600;
+
+if(获得表数量(队友) == 0){
+  return false;
+}
+
+if(0 < 锁定技能(自己.id,技能名,锁定时间)) {
+  return false;
+}
+
+if(使用技能(技能id,技能等级,自己.id)) {
+  return true
+}
+
+return false;
