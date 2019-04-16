@@ -1,0 +1,18 @@
+
+var 失血保护 = 1000;
+var 魔力保护 = 500;
+
+// 坐下时不使用技能
+if(自己.状态 != 5) {
+  return false;
+}
+
+if(自己.最大血 - 自己.血 > 失血保护) {
+  return false;
+}
+
+if(自己.魔 > 魔力保护) {
+  return false;
+}
+
+return 使用技能(技能id,技能等级,自己.id);
