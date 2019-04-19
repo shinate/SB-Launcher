@@ -39,7 +39,7 @@ skills 中需要对应角色名启动角色专属脚本（列表）
 ```bat
 mklink /d C:\SB所在目录\res\skills\角色名 C:\本项目目录\skills\脚本组名
 ```
-
+ 
 如:
 
 ```bat
