@@ -1,4 +1,4 @@
-# GSS_BUFF_SELF
+# SS_BUFF_GUI
 
 ¸ß·ÀµÄBUFFÀ¬»ø³µ¹íSS
 
