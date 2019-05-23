@@ -22,6 +22,9 @@ if(0 < 锁定技能(目标.id,技能名,持续时间)) {
   return false;
 }
 
-使用技能(技能id,技能等级,目标.id);
+if(!使用技能(技能id,技能等级,自己.id)) {
+  锁定技能(目标.id,技能名,0);
+  return true;
+}
 
 return false;
