@@ -10,4 +10,8 @@ if(锁定技能(自己.id,技能名,持续时间)) {
   return false
 }
 
-return 使用技能(技能id,技能等级,自己.id);
+if(!使用技能(技能id,技能等级,自己.id)) {
+  锁定技能(自己.id,技能名,0);
+}
+
+return true;
