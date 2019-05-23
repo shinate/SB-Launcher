@@ -1,0 +1,28 @@
+
+var 持续时间 = 10000;
+
+// 必须选择有效目标
+if(!目标.id) {
+  return false;
+}
+
+// 打不到
+if(目标.距离 > 技能距离) {
+  return false;
+}
+
+// 如果是队友，退出
+for(i=1;获得表数量(队友);1) {
+  if(队友[i].id == 目标.id) {
+    return false;
+  }
+}
+
+if(0 < 锁定技能(目标.id,技能名,持续时间)) {
+  return false;
+}
+
+使用技能(技能id,技能等级,目标.id)
+使用技能(技能id,技能等级,目标.id)
+
+return false;
