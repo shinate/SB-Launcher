@@ -11,4 +11,5 @@ NW_8R.txt                  // 转打8R的飞行女巫
 SD_FM.txt                  // 泛用型打怪圣斗
 SS_BUFF_GUI.txt            // 鬼buff幻彩及自身，带有低血量保护
 SZ_BATTLE_HALF_GIANT.txt   // 半巨牺牲战十字，回血+牺牲
+NAW_RM_MF.txt              // 人魔挂机男巫
 ```
