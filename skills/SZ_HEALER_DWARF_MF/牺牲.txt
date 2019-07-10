@@ -40,4 +40,4 @@ if(需要加血的目标 > 0) {
   return 使用技能(技能id,技能等级,需要加血的目标);
 }
 
-return false;
+return true;
